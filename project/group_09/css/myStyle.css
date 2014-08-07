@@ -1,0 +1,179 @@
+/*(C) @ 2014 Buddhika Jayawarhdana
+	Under MIT License 
+*/
+body{
+	
+	position:fixed;
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+}
+
+
+#container{
+	position : relative;
+	min-height :100%%;
+	background-color :#C2DFFF;
+	
+}
+
+#header{
+	padding:10px;
+	background: rgb(66, 184, 221);
+	
+	font-family: 'Nunito';
+	font-color:#C2DFFF;
+	font-size: 22px;
+	
+}
+
+#content{
+	position:relative;
+	bottom:50px;
+	background-color:#C2DFFF;
+}
+
+#footer{
+	position:absolute;
+	
+	bottom:0px;
+	left:0;
+	
+	height:50px;
+	width:100%;
+	
+	background: rgb(66, 184, 221);
+	float:left;
+	
+}
+
+#logo-footer{
+	position : absolute;
+	left:500px;
+	
+	width:50px;
+	height:50px;
+	
+}
+
+#copyrightNote{
+	position:absolute;
+	left:555px;
+}
+
+.center{
+	text-align:center;
+}
+
+/*Home*/
+#logo-home{
+	position:absolute;
+	height:500px;
+	padding-left:400px;
+}
+
+#home-description-container{
+	position:fixed;
+	width:500px;
+	height:300px;
+	
+	font-family: 'Cuprum';
+	font-size:30px;
+	
+	right:0;
+}
+
+#logo-home-image{
+	position:absolute;
+	height:100%;
+}
+/* styles for Team page*/
+#team-member-division{
+	position:absolute;
+	left:100px;
+	top:50px;
+}
+
+.team-member {
+    float:left;
+	padding:5px;
+	border:5px solid #00366;
+	margin:5px;
+}
+
+.team-member-description{
+	
+	position:relative;
+	text-align:center;
+	font-family:'Playball';
+	font-size:20px;
+	
+	width:100%;
+}
+
+.social-media-list{
+	position:relative;
+	width:150px;
+	height:100px;
+	
+}
+
+.social-media-icon{
+	position:relative;
+	height:30px;
+	width:30px;
+}
+
+/*Services*/
+
+#menu-container{
+	padding-left:500px;
+}
+
+#services-menu{
+	position:fixed;
+	width:400px;
+	
+	
+	font-family: 'Nunito';
+	font-size:22px;
+	
+	
+}
+.service{
+	padding:8px;
+	border:2px;
+}
+.button-secondary {
+            background: rgb(66, 184, 221); /* this is a light blue */
+			font-size:14px;
+}
+
+/*ContactUs*/
+#contact-form-div{
+	position:fixed;
+	padding:100px;
+	padding-left:400px;
+}
+#contact-description{
+	position:fixed;
+	padding-left:300px;
+	
+	
+	font-family: 'Nunito';
+	font-size:22px;
+	
+}
+#submitted{
+	position: fixed;
+	font-family: 'Cuprum';
+	font-size:50px;
+	
+	padding-left:350px;
+	
+	text-align:center;
+	
+	
+}
+

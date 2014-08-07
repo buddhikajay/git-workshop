@@ -1,0 +1,89 @@
+<!--(C) @ 2014 Buddhika Jayawarhdana
+	Under MIT License 
+-->
+
+<!Doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name = "viewport" content = "width = device-width initial-scale = 1.0 user-scalable = no">
+		
+		<link rel = "stylesheet" href = "../css/animate.css">
+		<link rel = "stylesheet" href = "../css/pure-min.css">
+		<link rel = "stylesheet" href = "../css/myStyle.css">
+		
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cuprum">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Anton">
+		
+	</head>
+	<body>
+		<div id="container">
+			<div id = "header" class = "animated bounceInDown">
+				<div id = "main-menu" class = "pure-menu-horizontal center">
+					<ul>
+						<li><a class = "pure-button pure-button-active" href = "Home.html">Home</a></li>
+						<li><a class = "pure-button" href = "Services.html">Services</a></li>
+						<li><a class = "pure-button" href ="Team.html">Team<a></li>
+						<li><a class = "pure-button" href = "ContactUs.html">Contact Us</a></li>
+					<ul>
+				</div>
+			</div>
+			<div id = "content">
+				<div id = "contact-description">
+					<p>Please Enter The Following Details, We Will Contact You Within Few Hours.</p>
+				</div>
+				<div id="contact-form-div">
+					<form id = "contact-form" class = "pure-form pure-form-aligned" action = "../php/formSubmit.php" method = "post">
+						<div class="pure-control-group">
+							<label for = "fname">First Name:</label>
+							<input id = "fname" type = "text" name = "firstName"><br>
+						</div>
+						<div class="pure-control-group">
+							<label for = "lname">Last Name:</label>
+							<input id = "lname"type = "text" name = "lastName"><br>
+						</div>
+						<div class="pure-control-group">
+							<label for = "company">Company:</label>
+							<input id = "company" type = "text" name = "company"><br>
+						</div>
+						<div class="pure-control-group">
+							<label for = "email">Email:</label>
+							<input id = "email" type = "email" name = "email"><br>
+						</div>
+						<div class="pure-control-group">
+							<label for = "phone">Phone No:</label>
+							<input id = "phone" type = "text" name = "phone"><br>
+						</div>
+
+						<div class="pure-control-group">
+							<label for = "service-category">I'm Interested In:</label>
+							<input list = "service-category" name ="serviceCategory">
+								<datalist id = "service-category" >
+									<option value = "Business Software Solutions">
+									<option value = "Embedded Software Solutions">
+									<option value = "Web Solutions">
+									<option value = "Industrial Automation Solutions">
+									<option value = "Embedded System Designs">
+									<option value = "PCB Designs">
+									<option value = "PCB Printings">
+								</datalist>
+						</div>
+						<div class="pure-control-group">
+							<label for = "submit">Email:</label>
+							<input id = "submit" type = "submit"><br>
+						</div >	
+					</form>
+				</div>
+			</div>
+			
+			<div id = "footer" class = "animated bounceInUp">
+				<footer>
+					<img id="logo-footer" class = "animated bounceInLeft" src="../images/Alpha Back.png"></img>
+					<p id="copyrightNote" class = "animated bounceInRight"> © 2014 TrueCode Technologies. All rights reserved</p>
+				</footer>
+			</div>
+		</div>
+	</body>
+
+</html>
